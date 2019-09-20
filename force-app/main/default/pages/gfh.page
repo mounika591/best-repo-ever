@@ -1,0 +1,22 @@
+<apex:page standardStylesheets="true"  showHeader="false" showChat="false" showQuickActionVfHeader="true" doctype="html-5.0">
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no"/> 
+</head>
+
+
+<link href="/sCSS/35.0/sprites/1444933246000/Theme3/default/gc/chatterCore.css" rel="stylesheet" type="text/css" />
+<link href="/sCSS/35.0/sprites/1444933246000/Theme3/default/gc/zen-container.css" rel="stylesheet" type="text/css" />
+
+<style>
+
+.forceChatterAlohaPagePost .pageWrapper, body{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+</style>
+
+
+<chatter:newsfeed />
+</apex:page>

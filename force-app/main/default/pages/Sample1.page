@@ -1,0 +1,4 @@
+<apex:page contentType="sampleclass">
+   global PageReference login() 
+                { return Site.login(username, password, startUrl); } 
+</apex:page>

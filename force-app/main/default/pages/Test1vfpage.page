@@ -1,0 +1,10 @@
+<apex:page >
+    <apex:form >
+       <apex:pageBlock >
+          <apex:pageBlockButtons >
+            <apex:commandButton action="{!Login}" value="login"/>
+            <apex:commandButton action="{!Signup}" value="signup"/>
+          </apex:pageBlockButtons>
+       </apex:pageBlock>
+    </apex:form>
+</apex:page>

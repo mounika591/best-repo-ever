@@ -1,0 +1,9 @@
+<apex:page controller="History_object">
+    <apex:form >
+      <apex:pageBlock title="Congratulations {!$User.FirstName}">
+         You belong to the customObject Name: <apex:inputField value="{!customObject.Total_Money__c}"/>
+         <apex:commandButton action="{!save}" value="save"/>
+      </apex:pageBlock>
+      <apex:detail relatedList="true"/>
+   </apex:form>
+</apex:page>
